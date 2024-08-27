@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forget Password Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="saeed.php" method="get">
+            <h2>Reset Your Password</h2>
+            <div class="inputs">
+
+                <input id="pass" name="userPass" type="password" placeholder="Enter Your new Password : " minlength="8"
+                    maxlength="20" required>
+
+                <input id="pass" name="userPass" type="password" placeholder="Confirm Your new Password : "
+                    minlength="8" maxlength="20" required>
+
+            </div>
+            <div class="extra-fields">
+                <div class="remember-me">
+                    <input id="remember" type="checkbox">
+                    <label for="remember">Remember Me</label>
+                </div>
+                <a href="../index.html">Go Back?</a>
+            </div>
+
+            <div class="last-inputs">
+                <input class="submit" type="submit" value="Confirm">
+                <input class="reset" type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

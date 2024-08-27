@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="firstDiv">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta at reprehenderit amet
+                quaerat qui
+                molestias quidem aut sequi velit possimus cum esse magnam, illum sit, magni tempora, ducimus expedita
+                eaque.
+            </p>
+        </div>
+        <form action="saeed.php" method="get">
+            <h2>Welcome Back !</h2>
+            <div class="inputs">
+
+                <input id="email" name="userEmail" type="email" placeholder="Enter Your Email :" required>
+
+                <input id="pass" name="userPass" type="password" placeholder="Enter Your Password : " minlength="8"
+                    maxlength="20" required>
+
+            </div>
+            <div class="extra-fields">
+                <div class="remember-me">
+                    <input id="remember" type="checkbox">
+                    <label for="remember">Remember Me</label>
+                </div>
+                <a href="./forgetPassword/index.html">Forget Password ?</a>
+            </div>
+
+            <input class="submit" type="submit" value="Login">
+            <a href="./createAccount/index.html">Don't have an account?<span> Create one</span></a>
+        </form>
+    </div>
+</body>
+
+</html>

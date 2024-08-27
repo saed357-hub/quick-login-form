@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 1.6;
+    background-image: url(./pictures/nice.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 70vw;
+    height: 70vh;
+}
+
+.container {
+    margin: 10vw;
+    margin-left: 20vw;
+    width: 60vw;
+    height: 60vh;
+    background-color: transparent;
+    border: 1.5px solid rgb(130, 129, 129);
+    /* border-left-color: blue; */
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .firstDiv {
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    border: 1.5px solid blue;
+    /* border-right-color: rgb(130, 129, 129); */
+    border-radius: 7px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.container .firstDiv p {
+    /* color: rgb(65, 103, 253); */
+    margin-top: 22vh;
+}
+
+.container form {
+    /* color: rgb(65, 103, 253); */
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container form .inputs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container form .inputs input {
+    margin: 5px;
+    width: 15vw;
+    height: 4.5vh;
+}
+
+.container form .extra-fields {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* color: rgb(65, 103, 253); */
+}
+
+.container form .extra-fields .remember-me label {
+    cursor: pointer;
+}
+
+.container form .extra-fields a,
+.container form a {
+    text-decoration: none;
+    color: black;
+    /* color: rgb(65, 103, 253); */
+}
+
+.container form .submit {
+    /* color: rgb(65, 103, 253); */
+    cursor: pointer;
+    margin-left: 10vw;
+    width: 10vw;
+    height: 5vh;
+}
+
+.container form a span {
+    /* color: burlywood; */
+    color: rgb(49, 42, 255);
+}
